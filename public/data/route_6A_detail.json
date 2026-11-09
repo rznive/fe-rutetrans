@@ -1,0 +1,3595 @@
+{
+  "route": {
+    "route_id": "6A",
+    "route_short_name": "6A",
+    "route_long_name": "Ragunan - Balai Kota via Kuningan",
+    "route_desc": "BRT",
+    "route_color": "1BAC47",
+    "route_text_color": "FFFFFF",
+    "price": 3500,
+    "start_time": "05:00:00",
+    "end_time": "22:00:00",
+    "operational_days": {
+      "mon": true,
+      "tue": true,
+      "wed": true,
+      "thu": true,
+      "fri": true,
+      "sat": true,
+      "sun": true
+    },
+    "trip_ids": [],
+    "facilities": [],
+    "header_detail_color": ""
+  },
+  "facilities": [
+    {
+      "name": "accessible for all",
+      "title": "aksesibilitas umum",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+      }
+    },
+    {
+      "name": "eskalator",
+      "title": "eskalator",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator_dark.png"
+      }
+    },
+    {
+      "name": "information center",
+      "title": "pusat informasi",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center_dark.png"
+      }
+    },
+    {
+      "name": "lift",
+      "title": "lift",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift_dark.png"
+      }
+    },
+    {
+      "name": "praying area",
+      "title": "area beribadah",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+      }
+    },
+    {
+      "name": "toilet",
+      "title": "toilet",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+      }
+    }
+  ],
+  "inbound": {
+    "trip_id": "6A-R07",
+    "headsign": "Ragunan via Kuningan",
+    "stops": [
+      {
+        "stop_id": "H00006P",
+        "platform_code": "A-B-C",
+        "stop_name": "Balai Kota",
+        "stop_lat": -6.180524,
+        "stop_lon": 106.826441,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "1A",
+            "route_short_name": "1A",
+            "route_long_name": "Pantai Maju - Balai Kota",
+            "route_color": "D65E62",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "2",
+            "route_short_name": "2",
+            "route_long_name": "Pulo Gadung - Monumen Nasional",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "2A",
+            "route_short_name": "2A",
+            "route_long_name": "Pulo Gadung - Rawa Buaya via Balai Kota",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5C",
+            "route_short_name": "5C",
+            "route_long_name": "Cililitan - Juanda",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7F",
+            "route_short_name": "7F",
+            "route_long_name": "Kampung Rambutan - Juanda via Cempaka Putih",
+            "route_color": "914900",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00066": "G00066"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00268S",
+        "platform_code": "A-B-C",
+        "stop_name": "Kebon Sirih Arah Selatan",
+        "stop_lat": -6.184195,
+        "stop_lon": 106.8232317,
+        "facilities": [
+          "accessible for all"
+        ],
+        "routes": [
+          {
+            "route_id": "1",
+            "route_short_name": "1",
+            "route_long_name": "Blok M - Kota",
+            "route_color": "D62126",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "51ST",
+            "route_short_name": "51ST",
+            "route_long_name": "Shuttle HBKB Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00040": "G00040"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00207P",
+        "platform_code": "A-B-C",
+        "stop_name": "MH Thamrin",
+        "stop_lat": -6.188043,
+        "stop_lon": 106.823051,
+        "facilities": [
+          "accessible for all",
+          "eskalator",
+          "lift",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "1",
+            "route_short_name": "1",
+            "route_long_name": "Blok M - Kota",
+            "route_color": "D62126",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "51ST",
+            "route_short_name": "51ST",
+            "route_long_name": "Shuttle HBKB Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "9D",
+            "route_short_name": "9D",
+            "route_long_name": "Pasar Minggu - Tanah Abang",
+            "route_color": "66A4A0",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "eskalator",
+            "title": "eskalator",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator_dark.png"
+            }
+          },
+          {
+            "name": "lift",
+            "title": "lift",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00035": "G00035"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00022P",
+        "platform_code": "D-E-F",
+        "stop_name": "Bundaran HI Astra",
+        "stop_lat": -6.193842,
+        "stop_lon": 106.823077,
+        "facilities": [
+          "accessible for all",
+          "eskalator",
+          "lift",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "1",
+            "route_short_name": "1",
+            "route_long_name": "Blok M - Kota",
+            "route_color": "D62126",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "51ST",
+            "route_short_name": "51ST",
+            "route_long_name": "Shuttle HBKB Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "9D",
+            "route_short_name": "9D",
+            "route_long_name": "Pasar Minggu - Tanah Abang",
+            "route_color": "66A4A0",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "eskalator",
+            "title": "eskalator",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator_dark.png"
+            }
+          },
+          {
+            "name": "lift",
+            "title": "lift",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00032": "G00032"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00215P",
+        "platform_code": "D-E-F",
+        "stop_name": "Setiabudi Integritas",
+        "stop_lat": -6.209205,
+        "stop_lon": 106.830271,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00299": "G00299"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00114P",
+        "platform_code": "G-H",
+        "stop_name": "Kuningan Madya",
+        "stop_lat": -6.213471,
+        "stop_lon": 106.830497,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00297": "G00297"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00098P",
+        "platform_code": "G-H",
+        "stop_name": "Karet Kuningan",
+        "stop_lat": -6.216708,
+        "stop_lon": 106.830765,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00293": "G00293"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00069P",
+        "platform_code": "D-E-F",
+        "stop_name": "Rasuna Said",
+        "stop_lat": -6.221641,
+        "stop_lon": 106.832283,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6C",
+            "route_short_name": "6C",
+            "route_long_name": "Stasiun Tebet - Kuningan",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00287": "G00287"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00043P",
+        "platform_code": "D-E-F",
+        "stop_name": "Kuningan",
+        "stop_lat": -6.228825,
+        "stop_lon": 106.833233,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6C",
+            "route_short_name": "6C",
+            "route_long_name": "Stasiun Tebet - Kuningan",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6K",
+            "route_short_name": "6K",
+            "route_long_name": "Kuningan - Karet",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00283": "G00283"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00154P",
+        "platform_code": "G-H",
+        "stop_name": "Patra Kuningan",
+        "stop_lat": -6.232696,
+        "stop_lon": 106.832085,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00281": "G00281"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00115P",
+        "platform_code": "J-K-L",
+        "stop_name": "Underpass Kuningan",
+        "stop_lat": -6.23477,
+        "stop_lon": 106.829027,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00277": "G00277"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00123P",
+        "platform_code": "D-E-F",
+        "stop_name": "Mampang Prapatan",
+        "stop_lat": -6.242737,
+        "stop_lon": 106.825744,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "5N",
+            "route_short_name": "5N",
+            "route_long_name": "Kampung Melayu - Ragunan",
+            "route_color": "D48961",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7B",
+            "route_short_name": "7B",
+            "route_long_name": "Kampung Rambutan - Blok M",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00271": "G00271"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00049P",
+        "platform_code": "C-D",
+        "stop_name": "Duren Tiga",
+        "stop_lat": -6.252389,
+        "stop_lon": 106.826988,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "5N",
+            "route_short_name": "5N",
+            "route_long_name": "Kampung Melayu - Ragunan",
+            "route_color": "D48961",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6W",
+            "route_short_name": "6W",
+            "route_long_name": "Duren Tiga - Blok M via Bangka Raya",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "7B",
+            "route_short_name": "7B",
+            "route_long_name": "Kampung Rambutan - Blok M",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00267": "G00267"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00075P",
+        "platform_code": "A-B",
+        "stop_name": "Warung Buncit",
+        "stop_lat": -6.256965,
+        "stop_lon": 106.828104,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6W",
+            "route_short_name": "6W",
+            "route_long_name": "Duren Tiga - Blok M via Bangka Raya",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00264": "G00264"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00262P",
+        "platform_code": "C-D",
+        "stop_name": "Warung Jati",
+        "stop_lat": -6.262356,
+        "stop_lon": 106.829783,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00263": "G00263"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00021P",
+        "platform_code": "A-B",
+        "stop_name": "Buncit Indah",
+        "stop_lat": -6.274348,
+        "stop_lon": 106.830336,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00260": "G00260"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00158P",
+        "platform_code": "A-B",
+        "stop_name": "Pejaten",
+        "stop_lat": -6.278422,
+        "stop_lon": 106.829762,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00258": "G00258"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00081P",
+        "platform_code": "D-E-F",
+        "stop_name": "Jati Padang",
+        "stop_lat": -6.285349,
+        "stop_lon": 106.826329,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00255": "G00255"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00221P",
+        "platform_code": "D-E-F",
+        "stop_name": "Jati Barat",
+        "stop_lat": -6.290979,
+        "stop_lon": 106.823689,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00250": "G00250"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00044P",
+        "platform_code": "C-D",
+        "stop_name": "Simpang Ragunan Ar-Raudhah",
+        "stop_lat": -6.294671,
+        "stop_lon": 106.822135,
+        "facilities": [
+          "accessible for all"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6N",
+            "route_short_name": "6N",
+            "route_long_name": "Ragunan - Blok M via Kemang",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7E",
+            "route_short_name": "7E",
+            "route_long_name": "Kampung Rambutan - Ragunan",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00243": "G00243"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00191P",
+        "platform_code": "F-G-H-J-K",
+        "stop_name": "Ragunan",
+        "stop_lat": -6.30573,
+        "stop_lon": 106.81895,
+        "facilities": [
+          "accessible for all",
+          "information center",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7E",
+            "route_short_name": "7E",
+            "route_long_name": "Kampung Rambutan - Ragunan",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "information center",
+            "title": "pusat informasi",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00307": "G00307"
+        },
+        "header_detail_color": ""
+      }
+    ],
+    "polyline": "fcvd@gp_kSR?HrFFzCDvCDfBNJFHT?FBP?pCGbDGfCMdDI@?|BGlAAhA?hBFbFFxCP??@AbJJjD@nJGhD?xAE@???x@GZGrAu@^MVCV@`@Qz@i@jDkCzEeErAoAtBuBxAcB\\i@f@oATu@Ji@Fo@|Fd@nELvCN|GFbAE`@IfAa@xAu@~BuAxAs@hAc@lD{ArC}@pAUfAM??@AnBQvDMnBC~G@zCI@?|Qq@d@E??@AjEk@dDg@dFuAdF{A^IxB[??@AnF{@pDg@lBS|L]hCMdIU@AnCEbABlAJfATvCr@`Bh@vAn@nAx@??@?NJ~@t@j@j@rA`Bp@fAh@nArArDLPXt@??@?n@bARb@r@t@lChBhFzCVR~A`A`A^lDfA~@TvDf@jDDhB?~@Cj@KpA?@?pDGrGYfGc@zGc@t@GdCY`VsB???AzBMhC[|GgAbGoAhBU@A|JoArDg@lCc@pD_AlBm@`@WXUPWA@@A`BeCROd@GpB?bBJt@CtAMfBIdG@dDs@rBStBK`AF~Cd@xG^|BK|ALnAZ`@H|@FbFR??@?lEP|A@rCKn@?^@pBXnBl@z@b@@?PF`EhClAp@f@TzCpAlMvEvHtBzBp@@?jHrB|@ZnGdChEhB~GnC@Af@Rz@Z~E|AxC`A`GdB@?nA^@?xC|@~FbBJ@^@`HAJ@HBD?xA@rAAr@C`C_@ZAXAz@BvBLbCLzHt@~Hx@CPAFCzBLv@QvD",
+    "start_time": "05:00:00",
+    "end_time": "22:00:00",
+    "operational_days": {
+      "mon": true,
+      "tue": true,
+      "wed": true,
+      "thu": true,
+      "fri": true,
+      "sat": true,
+      "sun": true
+    }
+  },
+  "outbound": {
+    "trip_id": "6A-R08",
+    "headsign": "Balai Kota via Kuningan",
+    "stops": [
+      {
+        "stop_id": "H00191P",
+        "platform_code": "A-B-C",
+        "stop_name": "Ragunan",
+        "stop_lat": -6.305707,
+        "stop_lon": 106.818712,
+        "facilities": [
+          "accessible for all",
+          "information center",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7E",
+            "route_short_name": "7E",
+            "route_long_name": "Kampung Rambutan - Ragunan",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "information center",
+            "title": "pusat informasi",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00304": "G00304"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00044P",
+        "platform_code": "F-G-H",
+        "stop_name": "Simpang Ragunan Ar-Raudhah",
+        "stop_lat": -6.294596,
+        "stop_lon": 106.822111,
+        "facilities": [
+          "accessible for all"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6N",
+            "route_short_name": "6N",
+            "route_long_name": "Ragunan - Blok M via Kemang",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7E",
+            "route_short_name": "7E",
+            "route_long_name": "Kampung Rambutan - Ragunan",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00245": "G00245"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00221P",
+        "platform_code": "A-B-C",
+        "stop_name": "Jati Barat",
+        "stop_lat": -6.290953,
+        "stop_lon": 106.82362,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00247": "G00247"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00081P",
+        "platform_code": "A-B-C",
+        "stop_name": "Jati Padang",
+        "stop_lat": -6.285343,
+        "stop_lon": 106.826286,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00253": "G00253"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00158P",
+        "platform_code": "C-D",
+        "stop_name": "Pejaten",
+        "stop_lat": -6.278385,
+        "stop_lon": 106.829687,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00259": "G00259"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00021P",
+        "platform_code": "C-D",
+        "stop_name": "Buncit Indah",
+        "stop_lat": -6.274343,
+        "stop_lon": 106.830266,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00261": "G00261"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00262P",
+        "platform_code": "A-B",
+        "stop_name": "Warung Jati",
+        "stop_lat": -6.262377,
+        "stop_lon": 106.829762,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00262": "G00262"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00075P",
+        "platform_code": "C-D",
+        "stop_name": "Warung Buncit",
+        "stop_lat": -6.25697,
+        "stop_lon": 106.828067,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6W",
+            "route_short_name": "6W",
+            "route_long_name": "Duren Tiga - Blok M via Bangka Raya",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00265": "G00265"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00049P",
+        "platform_code": "G-H",
+        "stop_name": "Duren Tiga",
+        "stop_lat": -6.252331,
+        "stop_lon": 106.826951,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "5N",
+            "route_short_name": "5N",
+            "route_long_name": "Kampung Melayu - Ragunan",
+            "route_color": "D48961",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6W",
+            "route_short_name": "6W",
+            "route_long_name": "Duren Tiga - Blok M via Bangka Raya",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "7B",
+            "route_short_name": "7B",
+            "route_long_name": "Kampung Rambutan - Blok M",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00269": "G00269"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00123P",
+        "platform_code": "J-K-L",
+        "stop_name": "Mampang Prapatan",
+        "stop_lat": -6.242663,
+        "stop_lon": 106.825685,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "5N",
+            "route_short_name": "5N",
+            "route_long_name": "Kampung Melayu - Ragunan",
+            "route_color": "D48961",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6U",
+            "route_short_name": "6U",
+            "route_long_name": "Blok M - Pasar Minggu",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6V",
+            "route_short_name": "6V",
+            "route_long_name": "Ragunan - Senayan Bank Jakarta",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7B",
+            "route_short_name": "7B",
+            "route_long_name": "Kampung Rambutan - Blok M",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00273": "G00273"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00115P",
+        "platform_code": "A-B-C",
+        "stop_name": "Underpass Kuningan",
+        "stop_lat": -6.234738,
+        "stop_lon": 106.828995,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00274": "G00274"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00154P",
+        "platform_code": "C-D",
+        "stop_name": "Patra Kuningan",
+        "stop_lat": -6.232627,
+        "stop_lon": 106.832079,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00279": "G00279"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00043P",
+        "platform_code": "K-L-M",
+        "stop_name": "Kuningan",
+        "stop_lat": -6.228755,
+        "stop_lon": 106.833168,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6C",
+            "route_short_name": "6C",
+            "route_long_name": "Stasiun Tebet - Kuningan",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6K",
+            "route_short_name": "6K",
+            "route_long_name": "Kuningan - Karet",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00285": "G00285"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00069P",
+        "platform_code": "K-L-M",
+        "stop_name": "Rasuna Said",
+        "stop_lat": -6.221593,
+        "stop_lon": 106.832224,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6C",
+            "route_short_name": "6C",
+            "route_long_name": "Stasiun Tebet - Kuningan",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00289": "G00289"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00098P",
+        "platform_code": "C-D",
+        "stop_name": "Karet Kuningan",
+        "stop_lat": -6.216644,
+        "stop_lon": 106.830727,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00291": "G00291"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00114P",
+        "platform_code": "C-D",
+        "stop_name": "Kuningan Madya",
+        "stop_lat": -6.213407,
+        "stop_lon": 106.830459,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00295": "G00295"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00215P",
+        "platform_code": "K-L-M",
+        "stop_name": "Setiabudi Integritas",
+        "stop_lat": -6.209157,
+        "stop_lon": 106.830202,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "13E",
+            "route_short_name": "13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6H",
+            "route_short_name": "6H",
+            "route_long_name": "Senen - Lebak Bulus",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "L13E",
+            "route_short_name": "L13E",
+            "route_long_name": "Puri Beta - Flyover Kuningan (Express)",
+            "route_color": "7A357B",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00301": "G00301"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00022P",
+        "platform_code": "G-H-J",
+        "stop_name": "Bundaran HI Astra",
+        "stop_lat": -6.193838,
+        "stop_lon": 106.822995,
+        "facilities": [
+          "accessible for all",
+          "eskalator",
+          "lift",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "1",
+            "route_short_name": "1",
+            "route_long_name": "Blok M - Kota",
+            "route_color": "D62126",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "51ST",
+            "route_short_name": "51ST",
+            "route_long_name": "Shuttle HBKB Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "9D",
+            "route_short_name": "9D",
+            "route_long_name": "Pasar Minggu - Tanah Abang",
+            "route_color": "66A4A0",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "eskalator",
+            "title": "eskalator",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator_dark.png"
+            }
+          },
+          {
+            "name": "lift",
+            "title": "lift",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00033": "G00033"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00207P",
+        "platform_code": "G-H-J",
+        "stop_name": "MH Thamrin",
+        "stop_lat": -6.188262,
+        "stop_lon": 106.822938,
+        "facilities": [
+          "accessible for all",
+          "eskalator",
+          "lift",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "1",
+            "route_short_name": "1",
+            "route_long_name": "Blok M - Kota",
+            "route_color": "D62126",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "51ST",
+            "route_short_name": "51ST",
+            "route_long_name": "Shuttle HBKB Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "9D",
+            "route_short_name": "9D",
+            "route_long_name": "Pasar Minggu - Tanah Abang",
+            "route_color": "66A4A0",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "eskalator",
+            "title": "eskalator",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/eskalator_dark.png"
+            }
+          },
+          {
+            "name": "lift",
+            "title": "lift",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/lift_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00037": "G00037"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00267S",
+        "platform_code": "A-B-C",
+        "stop_name": "Kebon Sirih Arah Utara",
+        "stop_lat": -6.182776,
+        "stop_lon": 106.8228,
+        "facilities": [
+          "accessible for all"
+        ],
+        "routes": [
+          {
+            "route_id": "1",
+            "route_short_name": "1",
+            "route_long_name": "Blok M - Kota",
+            "route_color": "D62126",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "51ST",
+            "route_short_name": "51ST",
+            "route_long_name": "Shuttle HBKB Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00039": "G00039"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00006P",
+        "platform_code": "D-E-F",
+        "stop_name": "Balai Kota",
+        "stop_lat": -6.180428,
+        "stop_lon": 106.826431,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "1A",
+            "route_short_name": "1A",
+            "route_long_name": "Pantai Maju - Balai Kota",
+            "route_color": "D65E62",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "2",
+            "route_short_name": "2",
+            "route_long_name": "Pulo Gadung - Monumen Nasional",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "2A",
+            "route_short_name": "2A",
+            "route_long_name": "Pulo Gadung - Rawa Buaya via Balai Kota",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5C",
+            "route_short_name": "5C",
+            "route_long_name": "Cililitan - Juanda",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6B",
+            "route_short_name": "6B",
+            "route_long_name": "Ragunan - Balai Kota via Semanggi",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7F",
+            "route_short_name": "7F",
+            "route_long_name": "Kampung Rambutan - Juanda via Cempaka Putih",
+            "route_color": "914900",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00067": "G00067"
+        },
+        "header_detail_color": ""
+      }
+    ],
+    "polyline": "jqne@a`~jSAb@OLQ@GI@IKK@]DSR_@FMRoCDSLyA@]o@O??oC]cBQIAa@@g@E{Gk@qAIgCQ_AEg@@m@BkC^oA@[BaL@e@EQEwGmBqEqAgBk@kF{AUIaEqAeBk@eAa@mN{FoGcC_Cu@w@Yi@Me@K}Ae@yC{@cGwAgA[sAi@gD}AWIeEwAe@SwDoBsAaAq@e@gAk@iAg@oAc@k@KgAMg@EWA]?_@@iBRW?q@AiAI}CKmGYc@GwBc@aAIWA]@a@D[BcAGsDU{@EsAOgAO}@Ew@BaBHq@HWDcAT{@Pm@Hk@@wAC{ACqAFoBN_ADs@Cq@Gs@A}@?M@K@WJKFMNcAdBIJILYVSN]PYLuCz@oBd@oInAgGr@mBXwCb@uGrA_Dh@yC^e@FsCRcEXwDd@aFb@eFZwALuCToGb@_BJw@FcIVoBDkB@i@EeA?kFG_@AkAMkCk@cEkA}@_@}BqAcAe@aE{Bq@c@w@q@y@y@YOs@kAYc@sAyDSg@s@sAk@_Ay@eAe@g@s@o@YUWQw@g@cBy@]Mq@UmA]_ASmASw@Ke@EWAyB@cADqEJiELyHPuEP_Ep@gATaAL}Cl@YF_BR{@TSJkErAiEx@_BZiALwAN_CVq@FgBHyFTyBFyBHmCDcB@sE?o@@qG\\eALgCd@}Cx@oBt@_ChAo@`@WJaCnAoBz@_AZiAPq@BgAAkBEcBE}CUsEG_E[]E[`BUv@Ud@Wd@[d@i@n@u@v@uAnAoBbB{EzDKDcAx@mA|@e@^GHELAT@PFTFTBR?RMd@IRSPWLYD[AYGIEMIk@g@SOKCsAAeCBoD?yGD{AF{@?gF?kCEsFIkDKu@Ag@?_B?i@DoAF}BD{B@wBFsEL{CHGLEFKFKDMBMAMAMEOOEGEW?MBODOHGDU@[GoE?gCCaCEmC",
+    "start_time": "05:00:00",
+    "end_time": "22:00:00",
+    "operational_days": {
+      "mon": true,
+      "tue": true,
+      "wed": true,
+      "thu": true,
+      "fri": true,
+      "sat": true,
+      "sun": true
+    }
+  },
+  "is_following": false,
+  "loop": null
+}

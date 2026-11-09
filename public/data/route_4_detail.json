@@ -1,0 +1,1618 @@
+{
+  "route": {
+    "route_id": "4",
+    "route_short_name": "4",
+    "route_long_name": "Pulo Gadung - Galunggung",
+    "route_desc": "BRT",
+    "route_color": "512C62",
+    "route_text_color": "FFFFFF",
+    "price": 3500,
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "operational_days": {
+      "mon": true,
+      "tue": true,
+      "wed": true,
+      "thu": true,
+      "fri": true,
+      "sat": true,
+      "sun": true
+    },
+    "trip_ids": [],
+    "facilities": [],
+    "header_detail_color": ""
+  },
+  "facilities": [
+    {
+      "name": "accessible for all",
+      "title": "aksesibilitas umum",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+      }
+    },
+    {
+      "name": "information center",
+      "title": "pusat informasi",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center_dark.png"
+      }
+    },
+    {
+      "name": "praying area",
+      "title": "area beribadah",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+      }
+    },
+    {
+      "name": "toilet",
+      "title": "toilet",
+      "icon": {
+        "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+        "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+      }
+    }
+  ],
+  "inbound": {
+    "trip_id": "4-R27",
+    "headsign": "Pulo Gadung",
+    "stops": [
+      {
+        "stop_id": "H00283P",
+        "platform_code": "D-E-F",
+        "stop_name": "Galunggung",
+        "stop_lat": -6.204373,
+        "stop_lon": 106.823432,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00203": "G00203"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00073P",
+        "platform_code": "D-E-F",
+        "stop_name": "Halimun",
+        "stop_lat": -6.20509323,
+        "stop_lon": 106.83339357,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00734": "G00734"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00153P",
+        "platform_code": "D-E-F",
+        "stop_name": "Pasar Rumput",
+        "stop_lat": -6.207067,
+        "stop_lon": 106.841128,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00700": "G00700"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "B08301P",
+        "platform_code": "",
+        "stop_name": "Halte Manggarai Temporer 1",
+        "stop_lat": -6.209127,
+        "stop_lon": 106.847159,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "bus_stop",
+        "v2_facilities": [],
+        "stop_gates": {
+          "B08301P": "B08301P"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00129P",
+        "platform_code": "C-D",
+        "stop_name": "Flyover Pramuka",
+        "stop_lat": -6.198864,
+        "stop_lon": 106.854454,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00196": "G00196"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00146P",
+        "platform_code": "A-B",
+        "stop_name": "Pasar Genjing",
+        "stop_lat": -6.19439,
+        "stop_lon": 106.860875,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00194": "G00194"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00255P",
+        "platform_code": "A-B",
+        "stop_name": "Utan Kayu",
+        "stop_lat": -6.192651,
+        "stop_lon": 106.864555,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00192": "G00192"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00182P",
+        "platform_code": "C-D",
+        "stop_name": "Pramuka Sari",
+        "stop_lat": -6.192155,
+        "stop_lon": 106.868584,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00191": "G00191"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "B08047P",
+        "platform_code": "",
+        "stop_name": "Simpang Pramuka 1",
+        "stop_lat": -6.191823,
+        "stop_lon": 106.873279,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "bus_stop",
+        "v2_facilities": [],
+        "stop_gates": {
+          "B08047P": "B08047P"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00254P",
+        "platform_code": "A-B",
+        "stop_name": "Rawamangun",
+        "stop_lat": -6.192881,
+        "stop_lon": 106.880338,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00186": "G00186"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00230P",
+        "platform_code": "C-D",
+        "stop_name": "Kayu Jati",
+        "stop_lat": -6.193211,
+        "stop_lon": 106.883674,
+        "facilities": [
+          "accessible for all"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00185": "G00185"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00258P",
+        "platform_code": "A-B",
+        "stop_name": "Velodrome",
+        "stop_lat": -6.193414,
+        "stop_lon": 106.888298,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00182": "G00182"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00161P",
+        "platform_code": "J-K",
+        "stop_name": "Pemuda Rawamangun",
+        "stop_lat": -6.193435,
+        "stop_lon": 106.891694,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00181": "G00181"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00121P",
+        "platform_code": "K-L",
+        "stop_name": "Layur",
+        "stop_lat": -6.193489,
+        "stop_lon": 106.899097,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00177": "G00177"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00252P",
+        "platform_code": "F-G",
+        "stop_name": "Pemuda Merdeka",
+        "stop_lat": -6.192395,
+        "stop_lon": 106.904849,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00175": "G00175"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00152P",
+        "platform_code": "C-D",
+        "stop_name": "Pasar Pulo Gadung",
+        "stop_lat": -6.187451,
+        "stop_lon": 106.905867,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00172": "G00172"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00184P",
+        "platform_code": "A-B-C",
+        "stop_name": "Pulo Gadung",
+        "stop_lat": -6.183148,
+        "stop_lon": 106.908726,
+        "facilities": [
+          "accessible for all",
+          "information center",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "2",
+            "route_short_name": "2",
+            "route_long_name": "Pulo Gadung - Monumen Nasional",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "2A",
+            "route_short_name": "2A",
+            "route_long_name": "Pulo Gadung - Rawa Buaya via Balai Kota",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "information center",
+            "title": "pusat informasi",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00168": "G00168"
+        },
+        "header_detail_color": ""
+      }
+    ],
+    "polyline": "dxzd@q}~jSA?`@yCZ{ByEs@MOzFmb@~@{Nj@{GReDp@qHx@sCbCqJzAqGAAtGiXFSJUT[NGN[PkB?C\\yDXaBy@We@WiAaBQ]_@e@MISEKAK?mC\\U@U?kBMAG?EBMDE|@DpAJj@?`@Ax@IXAdBoAZS~@_@\\SbAaA\\_@b@w@Lc@L_At@_HTmBR{@HO~BiClAwA`AyB\\oAZuA\\_BRo@P_@Ve@^e@PQPQ@UCMs@qBAMIMKIUIgB]c@@SBGDIBI?MIGOBQLKoBwGsGlBgWvHuA\\sBl@kGdB[Jm@TaAj@q@f@eAbAaDbDgAbA}B|B}AbBYZiAsAIEo@o@?AA?@@sAcBcBeCKYoAyBGYcA}AkEyHiIyMA?DCm@cAOM[g@Me@eAyBs@kBe@{Au@aDKg@Mu@Kw@McAGw@WcEi@kLAAUyEMKI_BGy@MwDAsA@gBF{AHuA@AZgFBMLQHwAd@iGXqEz@iQ??XqGP}CXiFAAFyATyGDaCBcL?A?}E?A?iDFcEEwALo`@?wK??????@yH@qFAaBCk@OcAOg@yDsIAEA?@?c@aASmBuAKaBSaDk@mB_@iAQ{AFgH~AA?AEq@Nc@H]Dc@A[GME]Sy@o@iBeBcC}Cm@{@]_@_CkCMUUUcDeEe@i@Y?G@GD{@jBQNU^a@hA`@Gn@FZDZLf@z@FDP@tAO",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "operational_days": {
+      "mon": true,
+      "tue": true,
+      "wed": true,
+      "thu": true,
+      "fri": true,
+      "sat": true,
+      "sun": true
+    }
+  },
+  "outbound": {
+    "trip_id": "4-R26",
+    "headsign": "Galunggung via Saharjo",
+    "stops": [
+      {
+        "stop_id": "H00184P",
+        "platform_code": "D-E-F",
+        "stop_name": "Pulo Gadung",
+        "stop_lat": -6.183025,
+        "stop_lon": 106.908715,
+        "facilities": [
+          "accessible for all",
+          "information center",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "2",
+            "route_short_name": "2",
+            "route_long_name": "Pulo Gadung - Monumen Nasional",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "2A",
+            "route_short_name": "2A",
+            "route_long_name": "Pulo Gadung - Rawa Buaya via Balai Kota",
+            "route_color": "2F489C",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "information center",
+            "title": "pusat informasi",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/information_center_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00170": "G00170"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00152P",
+        "platform_code": "A-B",
+        "stop_name": "Pasar Pulo Gadung",
+        "stop_lat": -6.18743,
+        "stop_lon": 106.905953,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00171": "G00171"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00252P",
+        "platform_code": "C-D-E",
+        "stop_name": "Pemuda Merdeka",
+        "stop_lat": -6.192448,
+        "stop_lon": 106.904863,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00174": "G00174"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00121P",
+        "platform_code": "A-B",
+        "stop_name": "Layur",
+        "stop_lat": -6.193579,
+        "stop_lon": 106.899092,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00176": "G00176"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00161P",
+        "platform_code": "A-B-C",
+        "stop_name": "Pemuda Rawamangun",
+        "stop_lat": -6.193531,
+        "stop_lon": 106.891608,
+        "facilities": [
+          "accessible for all",
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          },
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00178": "G00178"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00258P",
+        "platform_code": "C-D",
+        "stop_name": "Velodrome",
+        "stop_lat": -6.19351,
+        "stop_lon": 106.888304,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00183": "G00183"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00230P",
+        "platform_code": "A-B",
+        "stop_name": "Kayu Jati",
+        "stop_lat": -6.193329,
+        "stop_lon": 106.883664,
+        "facilities": [
+          "accessible for all"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "accessible for all",
+            "title": "aksesibilitas umum",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/accessible_for_all_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00184": "G00184"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00254P",
+        "platform_code": "C-D",
+        "stop_name": "Rawamangun",
+        "stop_lat": -6.192977,
+        "stop_lon": 106.880327,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00187": "G00187"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "B08048P",
+        "platform_code": "",
+        "stop_name": "Simpang Pramuka 2",
+        "stop_lat": -6.192457,
+        "stop_lon": 106.874554,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "bus_stop",
+        "v2_facilities": [],
+        "stop_gates": {
+          "B08048P": "B08048P"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00182P",
+        "platform_code": "A-B",
+        "stop_name": "Pramuka Sari",
+        "stop_lat": -6.192299,
+        "stop_lon": 106.868595,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00190": "G00190"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00255P",
+        "platform_code": "C-D",
+        "stop_name": "Utan Kayu",
+        "stop_lat": -6.192785,
+        "stop_lon": 106.864588,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00193": "G00193"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00146P",
+        "platform_code": "C-D",
+        "stop_name": "Pasar Genjing",
+        "stop_lat": -6.194491,
+        "stop_lon": 106.860956,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00195": "G00195"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00128P",
+        "platform_code": "A-B-C",
+        "stop_name": "Matraman",
+        "stop_lat": -6.199931,
+        "stop_lon": 106.854476,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5",
+            "route_short_name": "5",
+            "route_long_name": "Kampung Melayu - Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5C",
+            "route_short_name": "5C",
+            "route_long_name": "Cililitan - Juanda",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7U",
+            "route_short_name": "7U",
+            "route_long_name": "Cibubur - Ancol",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00216": "G00216"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00245P",
+        "platform_code": "A-B-C",
+        "stop_name": "Tegalan",
+        "stop_lat": -6.203072,
+        "stop_lon": 106.857212,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5",
+            "route_short_name": "5",
+            "route_long_name": "Kampung Melayu - Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5C",
+            "route_short_name": "5C",
+            "route_long_name": "Cililitan - Juanda",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7U",
+            "route_short_name": "7U",
+            "route_long_name": "Cibubur - Ancol",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00214": "G00214"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00217P",
+        "platform_code": "A-B-C",
+        "stop_name": "Kesatrian",
+        "stop_lat": -6.208506,
+        "stop_lon": 106.859373,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5",
+            "route_short_name": "5",
+            "route_long_name": "Kampung Melayu - Ancol",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "5C",
+            "route_short_name": "5C",
+            "route_long_name": "Cililitan - Juanda",
+            "route_color": "D46425",
+            "route_text_color": "000000",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "7U",
+            "route_short_name": "7U",
+            "route_long_name": "Cibubur - Ancol",
+            "route_color": "916131",
+            "route_text_color": "FFFFFF",
+            "route_desc": "Angkutan Umum Integrasi"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00212": "G00212"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "B08302P",
+        "platform_code": "",
+        "stop_name": "Halte Manggarai Temporer 2",
+        "stop_lat": -6.209383,
+        "stop_lon": 106.847603,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "bus_stop",
+        "v2_facilities": [],
+        "stop_gates": {
+          "B08302P": "B08302P"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00153P",
+        "platform_code": "A-B-C",
+        "stop_name": "Pasar Rumput",
+        "stop_lat": -6.207149,
+        "stop_lon": 106.8411,
+        "facilities": [
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00699": "G00699"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00073P",
+        "platform_code": "A-B-C",
+        "stop_name": "Halimun",
+        "stop_lat": -6.20516789,
+        "stop_lon": 106.83337212,
+        "facilities": [],
+        "routes": [
+          {
+            "route_id": "4D",
+            "route_short_name": "4D",
+            "route_long_name": "Pulo Gadung - Kuningan",
+            "route_color": "512C62",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "6M",
+            "route_short_name": "6M",
+            "route_long_name": "Stasiun Manggarai - Blok M",
+            "route_color": "4CAC67",
+            "route_text_color": "000000",
+            "route_desc": "Angkutan Umum Integrasi"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [],
+        "stop_gates": {
+          "G00733": "G00733"
+        },
+        "header_detail_color": ""
+      },
+      {
+        "stop_id": "H00283P",
+        "platform_code": "A-B-C",
+        "stop_name": "Galunggung",
+        "stop_lat": -6.204347,
+        "stop_lon": 106.823351,
+        "facilities": [
+          "praying area",
+          "toilet"
+        ],
+        "routes": [
+          {
+            "route_id": "6",
+            "route_short_name": "6",
+            "route_long_name": "Ragunan - Galunggung",
+            "route_color": "1BAC47",
+            "route_text_color": "FFFFFF",
+            "route_desc": "BRT"
+          },
+          {
+            "route_id": "B25",
+            "route_short_name": "B25",
+            "route_long_name": "Bekasi - Dukuh Atas",
+            "route_color": "ffff6d",
+            "route_text_color": "000000",
+            "route_desc": "Transjabodetabek"
+          }
+        ],
+        "distance": 0,
+        "bus_stop_type": "halte",
+        "v2_facilities": [
+          {
+            "name": "praying area",
+            "title": "area beribadah",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/praying_area_dark.png"
+            }
+          },
+          {
+            "name": "toilet",
+            "title": "toilet",
+            "icon": {
+              "light": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet.png",
+              "dark": "https://filestorage.transjakarta.co.id/tije-apps/bus-stop/facilities/toilet_dark.png"
+            }
+          }
+        ],
+        "stop_gates": {
+          "G00202": "G00202"
+        },
+        "header_detail_color": ""
+      }
+    ],
+    "polyline": "zrvd@mrokSJt@tAONINONITJ|@~@bAhAvDxENR`@^bBxA`@XXPLFZHN@`@C`BUlH}AXE`A?zF`AfBXrE\\CXBXL|@H\\P`@@?DLdEzINn@D\\DfA?vNC|C????BtFGhPAxT@AAtIAzC?bD??AvFCvEIbDUlHCAaAzS??o@vMOpCUzDSxCMxBGv@BP???Vg@rFORMjCEtADpCRxEXvH????l@fMXbD\\rD??@@D^VvAt@|ClAbDlAfC|AtCDCpCvEJR~CtFbDrFb@^lBbD^t@Zj@vAxBnBtCf@p@n@`@`@EZ_@j@i@@AzCuCdAsAvDyDx@s@`Ai@ZM|@[??lCw@dKoCjBi@|FgBbEmAbMwDPh@nBzGJBHHr@ZfB\\THJHHLHDj@zARj@T`ArClINj@RxAJ~@Bd@@RCNET_@rAINUVUPaBlAwIxFiBrAc@XiBDKBQFEFEPE\\ERK^KRk@v@gCbCs@j@}@v@CHCN@F~@pAn@jAJJNJr@Pp@T?@?AJDvB~@VL`B`AdDrB`DdBdAp@|ExCrAx@jAx@b@TfATl@Jp@@HBDJCNCJiAp@_@HYAa@GMBWDwGyAaGwAqCu@_LiDE?[AW@UDSNoFxTk@hCyArGyBnIgApDERaAvLUpDStB??W|C????a@bHShBsCfSqAzJsArL?A?DDJ@?BDRFhDL?AJaABD",
+    "start_time": "00:00:00",
+    "end_time": "23:59:00",
+    "operational_days": {
+      "mon": true,
+      "tue": true,
+      "wed": true,
+      "thu": true,
+      "fri": true,
+      "sat": true,
+      "sun": true
+    }
+  },
+  "is_following": false,
+  "loop": null
+}
