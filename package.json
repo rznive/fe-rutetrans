@@ -4,11 +4,8 @@
   "description": "RuteTrans Platform - Integrasi Transjakarta dan Trans Semarang menjadi satu platform monitoring dan navigasi transportasi publik secara realtime",
   "private": true,
   "scripts": {
-    "build:css": "node scripts/build-css.js",
-    "predev": "npm run build:css",
-    "prebuild": "npm run build:css",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },
@@ -22,12 +19,13 @@
     "zustand": "^5.0.16"
   },
   "devDependencies": {
-    "@tailwindcss/turbopack": "^4",
+    "@tailwindcss/postcss": "^4.3.5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.5",
+    "postcss": "^8.5.32",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
